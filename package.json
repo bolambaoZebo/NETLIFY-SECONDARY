@@ -1,0 +1,38 @@
+{
+  "name": "netlify-secondary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve -t 120 src",
+    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bolambaoZebo/NETLIFY-SECONDARY.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bolambaoZebo/NETLIFY-SECONDARY/issues"
+  },
+  "homepage": "https://github.com/bolambaoZebo/NETLIFY-SECONDARY#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "htm-to-json": "^0.1.4",
+    "mongoose": "^6.0.8",
+    "netlify-lambda": "^2.0.14",
+    "node-cron": "^3.0.0",
+    "request-ip": "^2.1.3",
+    "serverless-http": "^2.7.0",
+    "superagent": "^7.1.2",
+    "twilio": "^3.73.0",
+    "wordpress-rest-api": "^0.8.0",
+    "wpapi": "^2.0.0-alpha.1",
+    "xml2js": "^0.4.23"
+  }
+}
